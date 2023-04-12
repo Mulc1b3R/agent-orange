@@ -70,8 +70,7 @@ const Drawer = ({
 
             {agents.length === 0 && (
               <div>
-                Click the above button to restart. In the future, this will be a
-                list of your deployed agents!
+                Click to build new AI. 
               </div>
             )}
           </AnimatePresence>

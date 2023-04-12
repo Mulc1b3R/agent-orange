@@ -134,7 +134,7 @@ const Home: NextPage = () => {
                 left={
                   <>
                     <FaRobot />
-                    <span className="ml-2">Name:</span>
+                    <span className="ml-2">AI name:</span>
                   </>
                 }
                 value={name}
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
                 left={
                   <>
                     <FaStar />
-                    <span className="ml-2">Goal:</span>
+                    <span className="ml-2">Mission:</span>
                   </>
                 }
                 disabled={agent != null}
@@ -168,7 +168,7 @@ const Home: NextPage = () => {
                 ) : (
                   <>
                     <VscLoading className="animate-spin" size={20} />
-                    <span className="ml-2">Running</span>
+                    <span className="ml-2">Thinking</span>
                   </>
                 )}
               </Button>
@@ -182,7 +182,7 @@ const Home: NextPage = () => {
                 {shouldAgentStop ? (
                   <>
                     <VscLoading className="animate-spin" size={20} />
-                    <span className="ml-2">Stopping</span>
+                    <span className="ml-2">Aborting</span>
                   </>
                 ) : (
                   "Stop agent"

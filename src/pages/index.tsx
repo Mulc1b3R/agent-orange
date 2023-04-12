@@ -105,12 +105,12 @@ const Home: NextPage = () => {
                   GPT
                 </span>
                 <PopIn delay={0.5}>
-                  <Badge>Beta 🚀</Badge>
+                  <Badge>Beta v0.1.0</Badge>
                 </PopIn>
               </div>
               <div className="mt-1 text-center font-mono text-[0.7em] font-bold text-white">
                 <p>
-                  Assemble, configure, and deploy autonomous AI Agents in your
+                  Name, Build, configure, and deploy autonomous AI Agents in your
                   browser.
                 </p>
                 <em>

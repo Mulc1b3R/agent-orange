@@ -36,19 +36,14 @@ export default function SettingsDialog({
     >
       <div className="text-md relative flex-auto p-2 leading-relaxed">
         <p className="mb-3">
-          Welcome to AgentGPT! We&apos;re receiving traffic far higher than our
-          small team is able to provide for at the moment.
+          Welcome to AgentOrange...
         </p>
         <p className="mb-3">
-          Because of this, we momentarily ask that users utilize their own
-          OpenAI API key for AgentGPT.{" "}
+        Please provide an api key...{" "}
           <em>
-            This will only be used in the current browser session and not stored
-            anywhere.
+            Data is not stored and is encrypted using base64...
           </em>{" "}
-          If you elect not to, your agent will not be able to execute for very
-          long. To do this, sign up for an OpenAI account and visit the
-          following{" "}
+         get your API ket here...{" "}
           <a
             href="https://platform.openai.com/account/api-keys"
             className="text-blue-500"
@@ -68,8 +63,7 @@ export default function SettingsDialog({
           onChange={(e) => setKey(e.target.value)}
         />
         <strong className="mt-10">
-          NOTE: This must be a PAID OpenAI API account, not the free tier. This
-          is different from a ChatGPT Plus subscription.
+          NOTE: Please use this machine learning model responsibly...
         </strong>
       </div>
     </Dialog>

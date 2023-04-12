@@ -75,14 +75,14 @@ const ChatWindow = ({ messages, children, className }: ChatWindowProps) => {
               message={{
                 type: "system",
                 value:
-                  "> Create an agent by adding a name / goal, and hitting deploy!",
+                  "> Create an AI",
               }}
             />
             <ChatMessage
               message={{
                 type: "system",
                 value:
-                  "📢 Please first provide your own OpenAI API key via the settings tab!",
+                  "Enter OpenAI API key via the settings tab!",
               }}
             />
           </Expand>

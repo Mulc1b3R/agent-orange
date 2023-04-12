@@ -12,7 +12,7 @@ const DefaultLayout = (props: LayoutProps) => {
   return (
     <div className="flex min-h-screen min-h-screen flex-col bg-gradient-to-b from-[#2B2B2B] to-[#1F1F1F]">
       <Head>
-        <title>AgentGPT</title>
+        <title>AgentOrange</title>
         <meta name="description" content={description} />
         <meta name="twitter:site" content="@AgentGPT" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -26,7 +26,7 @@ const DefaultLayout = (props: LayoutProps) => {
         <meta name="twitter:image:height" content="640" />
         <meta
           property="og:title"
-          content="AgentGPT: Autonomous AI in your browser 🤖"
+          content="AgentOrange: Autonomous AI in your browser..."
         />
         <meta
           property="og:description"

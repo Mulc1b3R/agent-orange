@@ -10,24 +10,22 @@ export default function HelpDialog({
   close: () => void;
 }) {
   return (
-    <Dialog header="Welcome to AgentGPT 🤖" isShown={show} close={close}>
+    <Dialog header="Welcome to AgentOrange" isShown={show} close={close}>
       <div className="text-md relative flex-auto p-2 leading-relaxed">
         <p>
-          <strong>AgentGPT</strong> allows you to configure and deploy
-          Autonomous AI agents. Name your custom AI and have it embark on any
-          goal imaginable. It will attempt to reach the goal by thinking of
-          tasks to do, executing them, and learning from the results 🚀
+          <strong>AgentOrange</strong> allows you to Build, configure and deploy
+          Autonomous AI agentson the www . Ask it to perform any task you require.
         </p>
         <div>
           <br />
           This platform is currently in beta, we are currently working on:
           <ul className="ml-5 list-inside list-disc">
-            <li>Long term memory 🧠</li>
+            <li>Memory 🧠</li>
             <li>Web browsing 🌐</li>
             <li>Interaction with websites and people 👨‍👩‍👦</li>
           </ul>
           <br />
-          <p className="mt-2">Follow the journey below:</p>
+          <p className="mt-2">Details below:</p>
         </div>
         <div className="mt-4 flex w-full items-center justify-center gap-5">
           <div
@@ -52,7 +50,7 @@ export default function HelpDialog({
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
-              window.open("https://github.com/reworkd/AgentGPT", "_blank")
+              window.open("https://github.com/psico-mojo/aibot", "_blank")
             }
           >
             <FaGithub size={30} />

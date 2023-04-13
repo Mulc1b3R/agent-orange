@@ -102,10 +102,10 @@ const Home: NextPage = () => {
                   Agent
                 </span>
                 <span className="text-4xl font-bold text-white xs:text-5xl sm:text-6xl">
-                  GPT
+                  Orange
                 </span>
                 <PopIn delay={0.5}>
-                  <Badge>Beta v0.1.0</Badge>
+                  <Badge>Beta v0.3.0</Badge>
                 </PopIn>
               </div>
               <div className="mt-1 text-center font-mono text-[0.7em] font-bold text-white">
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
                   Please consider sponsoring the project:{" "}
                   <a
                     className="text-blue-400"
-                    href={"https://github.com/sponsors/reworkd-admin"}
+                    href={"https://github.com/psico-mojo/aibot"}
                   >
                     Link
                   </a>

@@ -140,7 +140,7 @@ const Home: NextPage = () => {
                 value={name}
                 disabled={agent != null}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="AgentGPT"
+                placeholder="AgentOrange"
               />
 
               <Input
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
                 disabled={agent != null}
                 value={goalInput}
                 onChange={(e) => setGoalInput(e.target.value)}
-                placeholder="Make the world a better place."
+                placeholder="what is the AI's Mission."
               />
             </div>
 

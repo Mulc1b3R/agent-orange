@@ -5,7 +5,7 @@
   <em> AGENT ORANGE GPT...Assemble, configure, and deploy autonomous AI Agents in your browser.  </em>
 </p>
 <p align="center">
-    <img alt="Node version" src="https://" />
+    Node version 16.0.1 upwards
 </p>
 
 <p align="center">

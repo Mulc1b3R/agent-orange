@@ -40,8 +40,8 @@ class AutonomousAgent {
       console.log(e);
       this.sendErrorMessage(
         this.customApiKey !== ""
-          ? `ERROR retrieving initial tasks array. Make sure your API key is not the free tier, make your goal more clear, or revise your goal such that it is within our model's policies to run. Shutting Down.`
-          : `ERROR retrieving initial tasks array. Retry, make your goal more clear, or revise your goal such that it is within our model's policies to run. Shutting Down.`
+          ? `ERROR retrieving initial tasks array. Please make your prompt more clear, or revise your prompt so that it is within the model's policies to run. Shutting Down.`
+          : `ERROR retrieving initial tasks array. Plese Retry, or revise your promt such that it is within the model's policies to run. Shutting Down.`
       );
       this.shutdown();
       return;
@@ -163,7 +163,7 @@ class AutonomousAgent {
       value:
         this.customApiKey !== ""
           ? `This agent has reached it's limit (25 Epochs)...Agent Orange is shutting down...`
-          : " Note, Please provide your own API key in Settings... Shutting down...",
+          : " Note, Please provide your API key by clicking on Settings... Shutting down...",
     });
   }
 
@@ -177,7 +177,7 @@ class AutonomousAgent {
   sendCompletedMessage() {
     this.sendMessage({
       type: "system",
-      value: "Mission accomplished...Stopping services related to task...Services stopped...Over.",
+      value: "Mission accomplished...Stopping services related to task...Services stopped...Over and out.",
     });
   }
 

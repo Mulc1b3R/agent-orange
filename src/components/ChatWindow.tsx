@@ -197,7 +197,7 @@ const ChatMessage = ({ message }: { message: Message }) => {
       <span className="mr-2 font-bold">{getMessagePrefix(message)}</span>
       {message.type == "thinking" && (
         <span className="italic text-zinc-400">
-          (Restart if this takes more than 30 seconds)
+          (Restart if this takes more than 60 seconds)
         </span>
       )}
       <span>{message.value}</span>

@@ -107,7 +107,7 @@ class AutonomousAgent {
     } catch (e) {
       console.log(e);
       this.sendErrorMessage(
-        `ERROR adding additional task(s). It might have been against our model's policies to run them. Continuing.`
+        `ERROR adding additional task(s)...Try tailoring your prompts to be more specific... Continuing.`
       );
       this.sendActionMessage("Task marked as complete.");
     }
@@ -162,22 +162,22 @@ class AutonomousAgent {
       type: "system",
       value:
         this.customApiKey !== ""
-          ? `This agent has been running for too long (25 Loops). To save your wallet, and our infrastructure costs, this agent is shutting down. In the future, the number of iterations will be configurable.`
-          : "We're sorry, because this is a demo, we cannot have our agents running for too long. Note, if you desire longer runs, please provide your own API key in Settings. Shutting down.",
+          ? `This agent has reached it's limit (25 Epochs)...Agent Orange is shutting down...`
+          : " Note, Please provide your own API key in Settings... Shutting down...",
     });
   }
 
   sendManualShutdownMessage() {
     this.sendMessage({
       type: "system",
-      value: `The agent has been manually shutdown.`,
+      value: ` Agent Orange was shutdown ok...`,
     });
   }
 
   sendCompletedMessage() {
     this.sendMessage({
       type: "system",
-      value: "All tasks completed. Shutting down.",
+      value: "Mission accomplished...Stopping services related to task...Services stopped...Over.",
     });
   }
 

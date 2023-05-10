@@ -213,7 +213,7 @@ const ChatMessage = ({ message }: { message: Message }) => {
               showCopy ? "visible" : "hidden"
             }`}
           >
-            <FaCopy className="text-white-300 cursor-pointer" />
+            <FaCopy className="text-white-300 cursor-pointer"/>
           </span>
         )}
       </div>

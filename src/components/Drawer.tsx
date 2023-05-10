@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaQuestionCircle,
   FaRobot,
-  FaTwitter,
+  FaExternalLinkAlt,
 } from "react-icons/fa";
 import { BiPlus } from "react-icons/bi";
 import FadeOut from "./motions/FadeOut";
@@ -70,7 +70,7 @@ const Drawer = ({
 
             {agents.length === 0 && (
               <div>
-                Click to build new AI. 
+                Click here to build new AI. 
               </div>
             )}
           </AnimatePresence>
@@ -97,15 +97,15 @@ const Drawer = ({
             }
           />
           <DrawerItem
-            icon={<FaTwitter />}
-            text="Twitter"
-            onClick={() =>
-              window.open(
-                "https://twitter.com/asimdotshrestha/status/1644883727707959296",
-                "_blank"
-              )
-            }
-          />
+    icon={<FaExternalLinkAlt />}
+    text="My External Link"
+    onClick={() =>
+        window.open(
+            "https://www.myexternallink.com/",
+            "_blank"
+        )
+    }
+/>
           <DrawerItem
             icon={<FaGithub />}
             text="GitHub"

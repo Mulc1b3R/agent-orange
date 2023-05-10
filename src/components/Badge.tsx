@@ -14,7 +14,7 @@ const Badge = ({ children }: BadgeProps) => {
         "sm:px-3 sm:py-1 sm:text-sm"
       )}
     >
-      {children}
+       {children}
     </div>
   );
 };

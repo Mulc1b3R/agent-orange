@@ -5,7 +5,7 @@
   <em> AGENT ORANGE GPT...Assemble, configure, and deploy autonomous AI Agents in your browser.  </em>
 </p>
 <p align="center">
-    <img alt="Node version" src="https://" />
+    <img alt="Node version" src="https://www.npmjs.com/package/npm">
 </p>
 
 <p align="center">
@@ -15,12 +15,13 @@ If you just need advice on a given topic...<a href="https://zendog-psico-mojo.ve
 <br>
 
 Agent Orange GPT lies somewhere between Chat gpt and Auto gpt , configure tasks and research projects
-for the Agent to work on while you while you are doing othet things.
+for the Agent to work on while you are doing other things.
 The AI will configure it's own research methods depending on the specific prompt you provide and return all the results
-as it gathers information, once you set it a "mission" it will work on "autopilot" while you work on other related or unrelted
-things.
-An example of a "Mission" may be "Research information related to the original BTC wallet belonging to Satoshi Nakamoto."
-The Agent will then
+as it gathers information, once you set it a "mission" it will work on "auto pilot" while you work on other related or unrelated
+things...
+
+An example of a "Mission" may be    "Research information related to the original BTC wallet belonging to Satoshi Nakamoto."
+
 
 ## Tech stack
 

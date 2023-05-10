@@ -105,4 +105,11 @@ npx prisma db push
 npm run dev
 ```
 
-Thanks to Reworkd.......Agent Orange is a hybrid project based on AgentGPT.
+# coming soon
+
+Text to speech for learning difficulties and people with impaired sight.
+
+# Big Shout
+
+Thanks to Reworkd and all the contributors ......Agent Orange is a hybrid project based on AgentGPT.This will eventually be
+quite a radical departure from the original main , hence it's hybrid status...

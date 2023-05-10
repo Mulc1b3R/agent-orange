@@ -38,7 +38,7 @@ An example of a "Mission" may be    "Research information related to the origina
 
 ### 🐳 Docker Setup
 
-The easiest way to run AgentGPT locally is by using docker.
+The easiest way to run Agent Orange GPT locally is by using docker.
 A convenient setup script is provided to help you get started.
 
 ```bash
@@ -47,7 +47,7 @@ A convenient setup script is provided to help you get started.
 
 ### 👷 Local Development Setup
 
-If you wish to develop AgentGPT locally, the easiest way is to
+If you wish to develop Agent Orange GPT locally, the easiest way is to
 use the provided setup script.
 
 ```bash
@@ -106,4 +106,4 @@ npx prisma db push
 npm run dev
 ```
 
-Thanks to Rewrkd.......
+Thanks to Reworkd.......Agent Orange is a hybrid project based on AgentGPT.

@@ -1,62 +1,28 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/reworkd/AgentGPT/main/public/banner.png?token=GHSAT0AAAAAAB7JND3U3VGGF3UYYHGYO4RAZBSDJAQ" height="300"/>
+  <img src="https://www.psico.uk/psicoweb/img/AI.jpg" height="300"/>
 </p>
 <p align="center">
-  <em>🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. 🤖 </em>
+  <em> AGENT ORANGE GPT...Assemble, configure, and deploy autonomous AI Agents in your browser.  </em>
 </p>
 <p align="center">
-    <img alt="Node version" src="https://img.shields.io/static/v1?label=node&message=%20%3E=16.0.0&logo=node.js&color=2334D058" />
-</p>
-
-<p align="center">
-<a href="https://agentgpt.reworkd.ai">🔗 Short link</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="#-getting-started">🤝 Contribute</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://twitter.com/asimdotshrestha/status/1644883727707959296">🐦 Twitter</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://discord.gg/3PccggEG">📢 Discord</a>
-</p>
-
----
-
-<h2 align="center">
-💝 Support the Advancement of AgentGPT!! 💝
-</h2>
-
-<p align="center">
-Join us in fueling the development of AgentGPT, an open-source project pushing the boundaries of AI autonomy! We're facing challenges in covering the operational costs 💸, including in-house API and other infrastructure expenses, which is projected to grow to around $150 USD per day 💳🤕 Your sponsorship would drive progress by helping us scale up resources, enhance features and functionality, and continue to iterate on this exciting project! 🚀
+    <img alt="Node version" src="https://" />
 </p>
 
 <p align="center">
-By sponsoring this free, open-source project, you not only have the opportunity to have your avatar/logo featured below, but also get the exclusive chance to chat with the founders!🗣️ 
+If you just need advice on a given topic...<a href="https://zendog-psico-mojo.vercel.app/">Talk to Zendog GPT</a>
+
 </p>
+<br>
 
-<p align="center">
-<a href="https://github.com/sponsors/reworkd-admin">👉 Click here</a> to support the project 
-</p>
+Agent Orange GPT lies somewhere between Chat gpt and Auto gpt , configure tasks and research projects
+for the Agent to work on while you while you are doing othet things.
+The AI will configure it's own research methods depending on the specific prompt you provide and return all the results
+as it gathers information, once you set it a "mission" it will work on "autopilot" while you work on other related or unrelted
+things.
+An example of a "Mission" may be "Research information related to the original BTC wallet belonging to Satoshi Nakamoto."
+The Agent will then
 
----
-
-AgentGPT allows you to configure and deploy Autonomous AI agents.
-Name your own custom AI and have it embark on any goal imaginable.
-It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results 🚀.
-
-## 🎉 Roadmap
-
-This platform is currently in beta, we are currently working on:
-
-- Long term memory via a vector DB 🧠
-- Web browsing capabilities via langchain 🌐
-- Interaction with websites and people 👨‍👩‍👦
-- Writing capabilities via a document API 📄
-- Saving agent runs 💾
-- Users and authentication 🔐
-- Stripe integration for a lower limit paid version (So we can stop worrying about infra costs) 💵
-
-More Coming soon...
-
-## 🚀 Tech Stack
+## Tech stack
 
 - ✅ **Bootstrapping**: [create-t3-app](https://create.t3.gg).
 - ✅ **Framework**: [Nextjs 13 + Typescript](https://nextjs.org/).
@@ -93,24 +59,19 @@ use the provided setup script.
 
 1. Fork this project:
 
-- [Click here](https://github.com/reworkd/AgentGPT/fork).
+- [Click here](https://github.com/psico-mojo/aibot/fork).
 
 2. Clone the repository:
 
-```bash
-git clone git@github.com:YOU_USER/AgentGPT.git
-```
+https://github.com/psico-mojo/aibot.git
 
 3. Install dependencies:
 
-```bash
-cd AgentGPT
 npm install
-```
 
 4. Create a **.env** file with the following content:
 
-> 🚧 The environment variables must match the following [schema](https://github.com/reworkd/AgentGPT/blob/main/src/env/schema.mjs).
+> 🚧 The environment variables must match the following [schema](https://github.com/psico-mojo/aibot/blob/main/src/env/schema.mjs).
 
 ```bash
 # Deployment Environment:
@@ -134,7 +95,7 @@ OPENAI_API_KEY=changeme
 
 **Note:** This only needs to be done if you wish to use sqlite.
 
-6. Ready 🥳, now run:
+6. Ready , now run:
 
 ```bash
 # Create database migrations
@@ -143,3 +104,5 @@ npx prisma db push
 # Run the project:
 npm run dev
 ```
+
+Thanks to Rewrkd.......

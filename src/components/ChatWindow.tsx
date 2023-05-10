@@ -65,7 +65,7 @@ const ChatWindow = ({ messages, children, className }: ChatWindowProps) => {
         id={messageListId}
       >
         {messages.map((message, index) => (
-          <ChatMessage key={`${index}-${message.type}`} message={message} />
+          <ChatMessage key={`${index}-${message.type}`} message={message}/>
         ))}
         {children}
 
@@ -139,13 +139,13 @@ const MacWindowHeader = () => {
   return (
     <div className="flex items-center gap-1 rounded-t-3xl p-3">
       <PopIn delay={0.4}>
-        <div className="h-3 w-3 rounded-full bg-red-500" />
+        <div className="h-3 w-3 rounded-full bg-red-500"/>
       </PopIn>
       <PopIn delay={0.5}>
-        <div className="h-3 w-3 rounded-full bg-yellow-500" />
+        <div className="h-3 w-3 rounded-full bg-yellow-500"/>
       </PopIn>
       <PopIn delay={0.6} className="flex-grow">
-        <div className="h-3 w-3 rounded-full bg-green-500" />
+        <div className="h-3 w-3 rounded-full bg-green-500"/>
       </PopIn>
 
       <div

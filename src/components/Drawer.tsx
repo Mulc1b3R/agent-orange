@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   FaBars,
   FaCog,
-  FaDiscord,
+  FaBrain,
   FaGithub,
   FaQuestionCircle,
   FaRobot,
@@ -88,20 +88,22 @@ const Drawer = ({
             text="Help"
             onClick={showHelp}
           />
-          <DrawerItem icon={<FaCog />} text="Settings" onClick={showSettings} />
           <DrawerItem
-            icon={<FaDiscord />}
-            text="Discord"
-            onClick={() =>
-              window.open("https://discord.gg/jdSBAnmdnY", "_blank")
-            }
-          />
-          <DrawerItem
-    icon={<FaExternalLinkAlt />}
-    text="My External Link"
+    icon={<FaBrain />}
+    text="midas"
     onClick={() =>
         window.open(
-            "https://www.myexternallink.com/",
+            "https://time-series-forecasting.vercel.app/",
+            "_blank"
+        )
+    }
+/>
+          <DrawerItem
+    icon={<FaExternalLinkAlt />}
+    text="zendog"
+    onClick={() =>
+        window.open(
+            "https://zendog-psico-mojo.vercel.app/",
             "_blank"
         )
     }
@@ -110,7 +112,7 @@ const Drawer = ({
             icon={<FaGithub />}
             text="GitHub"
             onClick={() =>
-              window.open("https://github.com/reworkd/AgentGPT", "_blank")
+              window.open("https://github.com/psico-mojo/aibot", "_blank")
             }
           />
         </div>

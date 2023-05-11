@@ -15,7 +15,7 @@ export default function HelpDialog({
         <p>
           <strong>AgentOrange</strong> allows you to Build, configure and deploy
           Autonomous AI agents on the www .
-          Ask it to perform any task you require.Research , information gathering e.t.c
+          Ask it to perform any task you require. Research, information gathering e.t.c
         </p>
         <div>
           <br />

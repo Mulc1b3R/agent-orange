@@ -10,11 +10,11 @@ export default function HelpDialog({
   close: () => void;
 }) {
   return (
-    <Dialog header="Welcome to AgentOrange" isShown={show} close={close}>
+    <Dialog header="Welcome to Agent Orange GPT" isShown={show} close={close}>
       <div className="text-md relative flex-auto p-2 leading-relaxed">
         <p>
           <strong>AgentOrange</strong> allows you to Build, configure and deploy
-          Autonomous AI agentson the www . Ask it to perform any task you require.
+          Autonomous AI agents on the www . Ask it to perform any task you require.
         </p>
         <div>
           <br />

@@ -1,5 +1,4 @@
-import React from 'react';
-import ParticlesBg from 'particles-bg';
+import React from "react";
 
 interface DottedGridBackgroundProps {
   children: React.ReactNode;
@@ -11,8 +10,7 @@ const DottedGridBackground = ({
   className,
 }: DottedGridBackgroundProps) => {
   return (
-    <div className={`${className ? className + ' ' : ''} background`}>
-      <ParticlesBg type="cobweb" color="#ffffff" bg={true} />
+    <div className={`${className ? className + " " : ""} background`}>
       <div className="lower-gradient" />
       {children}
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBrain, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaBrain, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Dialog from "./Dialog";
 
 export default function HelpDialog({
@@ -18,11 +18,12 @@ export default function HelpDialog({
         </p>
         <div>
           <br />
-          This platform is currently in beta, we are currently working on:
+          Future add ons and integrations i am working on:
           <ul className="ml-5 list-inside list-disc">
-            <li>Memory 🧠</li>
-            <li>Web browsing 🌐</li>
-            <li>Interaction with websites and people 👨‍👩‍👦</li>
+            <li>Code reduction for less energy usage and more speed</li>
+            <li>Responsive background using particles.js</li>
+            <li>Text to speech for people with disabilities</li>
+            <li>Python itegration</li>
           </ul>
           <br />
           <p className="mt-2">Details below:</p>
@@ -40,12 +41,12 @@ export default function HelpDialog({
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
               window.open(
-                "https://twitter.com/asimdotshrestha/status/1644883727707959296",
+                "https://zendog-psico-mojo.vercel.app/",
                 "_blank"
               )
             }
           >
-            <FaTwitter size={30} />
+            <FaExternalLinkAlt size={30} />
           </div>
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"

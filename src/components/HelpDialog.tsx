@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaBrain, FaGithub, FaTwitter } from "react-icons/fa";
 import Dialog from "./Dialog";
 
 export default function HelpDialog({
@@ -31,10 +31,10 @@ export default function HelpDialog({
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
-              window.open("https://discord.gg/jdSBAnmdnY", "_blank")
+              window.open("https://time-series-forecasting.vercel.app", "_blank")
             }
           >
-            <FaDiscord size={30} />
+            <FaBrain size={30} />
           </div>
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"

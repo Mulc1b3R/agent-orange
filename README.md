@@ -111,6 +111,8 @@ Text to speech for learning difficulties and people with impaired sight.
 
 Particles.js background...
 
+python itegration...
+
 # Big Shout
 
 Thanks to Reworkd and all the contributors ......Agent Orange is a hybrid project based on AgentGPT.This will eventually be

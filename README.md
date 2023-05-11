@@ -109,7 +109,7 @@ npm run dev
 
 Text to speech for learning difficulties and people with impaired sight.
 
-Particles.js background.
+Particles.js background...
 
 # Big Shout
 

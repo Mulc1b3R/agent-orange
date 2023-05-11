@@ -83,6 +83,14 @@ const Drawer = ({
           {/*  text="Clear Agents"*/}
           {/*  onClick={() => setAgents([])}*/}
           {/*/>*/}
+
+          <DrawerItem
+            icon={
+              <FaCog className="transition-transform group-hover:rotate-90" />
+            }
+            text={("API KEY")}
+            onClick={showSettings}
+          />          
           <DrawerItem
             icon={<FaQuestionCircle />}
             text="Help"

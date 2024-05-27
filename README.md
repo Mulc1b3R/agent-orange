@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-If you just need advice on a given topic...<a href "https://zendog-eight.vercel.app/">Talk to Zendog </a>
+If you just need advice on a given topic...<a href= "https://zendog-eight.vercel.app/">Talk to Zendog </a>
 
 </p>
 <br>

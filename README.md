@@ -19,28 +19,6 @@ things...
 
 An example of a "Mission" may be "Research information related to the original BTC wallet belonging to Satoshi Nakamoto."
 
-## Tech stack
-
-- ✅ **Bootstrapping**: [create-t3-app](https://create.t3.gg).
-- ✅ **Framework**: [Nextjs 13 + Typescript](https://nextjs.org/).
-- ✅ **Auth**: [Next-Auth.js](https://next-auth.js.org)
-- ✅ **ORM**: [Prisma](https://prisma.io).
-- ✅ **Database**: [Supabase](https://supabase.com/).
-- ✅ **Styling**: [TailwindCSS + HeadlessUI](https://tailwindcss.com).
-- ✅ **Typescript Schema Validation**: [Zod](https://github.com/colinhacks/zod).
-- ✅ **End-to-end typesafe API**: [tRPC](https://trpc.io/).
-
-## 👨‍🚀 Getting Started
-
-### 🐳 Docker Setup
-
-The easiest way to run Agent Orange GPT locally is by using docker.
-A convenient setup script is provided to help you get started.
-
-```bash
-./setup.sh --docker
-```
-
 ### 👷 Local Development Setup
 
 If you wish to develop Agent Orange GPT locally, the easiest way is to
@@ -52,23 +30,15 @@ use the provided setup script.
 
 ### 🛠️ Manual Setup
 
-> 🚧 You will need [Nodejs +18 (LTS recommended)](https://nodejs.org/en/) installed.
+1. Clone the repository: https://github.com/Mulc1b3R/agent-orange.git
 
-1. Fork this project:
-
-- [Click here](https://github.com/psico-mojo/aibot/fork).
-
-2. Clone the repository:
-
-https://github.com/psico-mojo/aibot.git
-
-3. Install dependencies:
+2. Install dependencies:
 
 npm install
 
-4. Create a **.env** file with the following content:
+3. Create a **.env** file with the following content:
 
-> 🚧 The environment variables must match the following [schema](https://github.com/psico-mojo/aibot/blob/main/src/env/schema.mjs).
+ * The environment variables must match the following [schema](https://github.com/psico-mojo/aibot/blob/main/src/env/schema.mjs).
 
 ```bash
 # Deployment Environment:
@@ -101,24 +71,7 @@ npx prisma db push
 # Run the project:
 npm run dev
 ```
+******************************************************************************************************************************
 
-# coming soon
 
-Text to speech for learning difficulties and people with impaired sight.
 
-python itegration...
-
-Agent0range Desktop...
-
-Open AI...
-
-External Search...
-
-Email...
-
-# Big Shout
-
-Thanks to Reworkd and AutoGPT and all the contributors ......Agent Orange is a hybrid project based on AgentGPT.This will eventually be
-quite a radical departure from the original main , hence it's hybrid status...
-
-Added 'say' elecron' and 'openai' @latest....12/05/23...

@@ -40,7 +40,7 @@ npm install
 
  * The environment variables must match the following [schema](https://github.com/psico-mojo/aibot/blob/main/src/env/schema.mjs).
 
-```bash
+```
 # Deployment Environment:
 NODE_ENV=development
 
@@ -49,26 +49,28 @@ NODE_ENV=development
 NEXTAUTH_SECRET=changeme
 NEXTAUTH_URL=http://localhost:3000
 DATABASE_URL=file:./db.sqlite
-
+```
 # Your open api key
-OPENAI_API_KEY=changeme
+
+```
+OPENAI_API_KEY=YOUR_API_KEY_HERE
 ```
 
 5. Modify prisma schema to use sqlite:
 
-```bash
+```
 ./prisma/useSqlite.sh
 ```
 
 **Note:** This only needs to be done if you wish to use sqlite.
 
-6. Ready , now run:
 
-```bash
 # Create database migrations
+```
 npx prisma db push
-
+```
 # Run the project:
+```
 npm run dev
 ```
 ******************************************************************************************************************************

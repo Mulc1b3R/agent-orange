@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="https://www.psico.uk/psicoweb/img/AI.jpg" height="300"/>
-</p>
-<p align="center">
+![Alt text](agent-orange.png)
   <em> AGENT ORANGE GPT...Assemble, configure, and deploy autonomous AI Agents in your browser.  </em>
 </p>
 <p align="center">

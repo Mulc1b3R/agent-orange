@@ -1,4 +1,5 @@
 ![Alt text](agent-orange.png)
+
   <em> AGENT ORANGE GPT...Assemble, configure, and deploy autonomous AI Agents in your browser.  </em>
 </p>
 <p align="center">
@@ -6,7 +7,7 @@
 </p>
 
 <p align="center">
-If you just need advice on a given topic...<a href="https://zendog-psico-mojo.vercel.app/">Talk to Zendog GPT</a>
+If you just need advice on a given topic...<a href="https://zendog-psico-mojo.vercel.app/">Talk to Zendog </a>
 
 </p>
 <br>
